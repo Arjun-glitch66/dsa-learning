@@ -7,10 +7,10 @@ def check(s):
         if not s[left].isalnum():
             left+=1
             continue
-        elif not s[right].isalnum():
+        if not s[right].isalnum():
             right-=1
             continue
-        elif s[left].lower()!=s[right].lower(): #lower() to represent as amanaplanacanalpanama if not used A!=a conflicts
+        if s[left].lower()!=s[right].lower(): #lower() to represent as amanaplanacanalpanama if not used A!=a conflicts
             return False
         else:
             left=left+1
