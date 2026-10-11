@@ -14,4 +14,4 @@ def reverseVowels(s):
             left+=1
             right-=1
     return "".join(s)
-print(reverseVowels(s))
+print(reverseVowels(s)) 
