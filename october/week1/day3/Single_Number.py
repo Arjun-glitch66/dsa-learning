@@ -1,4 +1,5 @@
 #brute force method
+#every number appears twice except on enumber find that number
 nums=[4,2,1,2,1]
 def check():
     count=0
