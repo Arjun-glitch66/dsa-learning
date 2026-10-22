@@ -8,6 +8,6 @@ def check():
             dict[n]+=1
         else:
             dict[n]=1
-        if dict[n]>=4:
+        if dict[n]>=len(num)/2:
             return n,dict[n] #2,4 ...4 is the count 
 print(check())
