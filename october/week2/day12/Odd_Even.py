@@ -1,3 +1,4 @@
+#even at even index and odd and odd index
 num=[4,2,5,7]
 def check():
     left=0
