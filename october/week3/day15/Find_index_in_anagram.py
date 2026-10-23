@@ -1,3 +1,4 @@
+#Given two strings, s and p, return all the starting indices of substrings in s that are anagrams of p.
 s="cbaebabacd"
 p="abc"
 def check():
