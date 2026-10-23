@@ -1,20 +1,20 @@
 #2 pointer approach for removing duplicates
 #sorted array
 nums=[1,2,1,1,3,2]
-sorted=sorted(nums)
-print(sorted) #[1,1,1,2,2,3]
+num2=sorted(nums)
+print(num2) #[1,1,1,2,2,3]
 def check():
     left=0
-    for right in range(1,len(sorted)):
-        if sorted[left]==sorted[right]:
+    for right in range(1,len(num2)):
+        if num2[left]==num2[right]:
             continue
         else:
             left+=1
-            temp=sorted[right]
-            sorted[right]=sorted[left]
-            sorted[left]=temp
+            temp=num2[right]
+            num2[right]=num2[left]
+            num2[left]=temp
     for i in range(left+1): #left was at index 2 so 2+1=3 covers 0,1,2 indices
-        print(sorted[i],end=" ")
+        print(num2[i],end=" ")
     print()
     return "Removed Duplicates Successfully"
 print(check())
