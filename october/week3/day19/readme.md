@@ -4,7 +4,7 @@
 
 | File | Approach | Time | Space |
 | :--- | :--- | :--- | :--- |
-| [buddy_strings.py](./buddy_strings.py) | Compare both strings character by character and store the first two mismatching indices. Check whether swapping the characters at those positions makes both strings equal. | O(n) | O(1) |
+| [buddy.py](buddy.py) | Compare both strings character by character and store the first two mismatching indices. Check whether swapping the characters at those positions makes both strings equal. | O(n) | O(1) |
 
 ## What I Learned
 
