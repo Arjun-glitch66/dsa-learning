@@ -8,5 +8,4 @@ class Solution:
                 return memo[n]
             memo[n] = solve(n - 1) + solve(n - 2)
             return memo[n]
-
         return solve(n)
